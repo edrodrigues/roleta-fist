@@ -20,6 +20,7 @@ export function submitLead(lead, result) {
     body: JSON.stringify({
       nome: lead.nome,
       email: lead.email,
+      celular: lead.zap,
       conta: contaVal(lead.conta),
       resultado: result.title
     })

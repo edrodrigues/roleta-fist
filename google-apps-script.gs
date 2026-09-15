@@ -11,8 +11,9 @@ function doPost(e) {
     new Date(),           // A: Timestamp
     data.nome || "",      // B: Nome
     data.email || "",     // C: Email
-    data.conta || "",     // D: Valor médio da conta
-    data.resultado || ""  // E: Resultado da roleta
+    data.celular || "",   // D: Celular / WhatsApp
+    data.conta || "",     // E: Valor médio da conta
+    data.resultado || ""  // F: Resultado da roleta
   ]);
 
   return ContentService
